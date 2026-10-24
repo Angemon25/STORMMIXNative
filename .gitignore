@@ -1,0 +1,15 @@
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.so
+*.a
+*.user
+*.backup
+*.bak
+*.log
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
