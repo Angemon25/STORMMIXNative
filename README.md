@@ -76,22 +76,3 @@ Lo script usa Wayland quando è presente la sessione grafica prevista. **Eseguir
 ## Sicurezza e stato dei test
 
 Questo repository contiene **codice sperimentale**. La build Qt/ALSA e il comportamento reale su Raspberry Pi 4 non sono stati verificati durante la preparazione del pacchetto GitHub. Prima di collegare un impianto audio: volumi bassi, prove di mute, clipping, feedback, XRUN e recupero errori. Non impiegare in spettacoli o applicazioni critiche senza collaudo.
-
-## Pubblicazione su GitHub
-
-Crea un repository vuoto su GitHub, poi dalla cartella estratta:
-
-```bash
-git init
-git add .
-git commit -m "Initial import: STORM MIX Native 0.6.39 Beta"
-git branch -M main
-git remote add origin https://github.com/TUO-UTENTE/STORM-MIX-Native.git
-git push -u origin main
-```
-
-Sostituisci `TUO-UTENTE` con il tuo username. Nessun repository remoto viene creato automaticamente da questo pacchetto.
-
-## Licenza
-
-**Licenza non ancora scelta.** Prima di rendere il repository pubblico, decidi se pubblicarlo con una licenza open source (per esempio MIT o GPL) e verifica la provenienza di eventuali componenti di terze parti. Senza licenza esplicita restano applicabili i diritti d'autore predefiniti.
